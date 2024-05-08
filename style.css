@@ -72,8 +72,16 @@ nav {
 	z-index: 1000;
 }
 
-img {
+.section6 img {
 	width: 600px;
  	margin-left: 1300px;
  	margin-top: 140px;
+}
+
+.section5 img {
+	box-shadow: 3px 1px 10px lightgray;
+	border-radius: 100px;
+	width: 300px;
+	margin-top: -330px;
+	margin-left: 720px;
 }
