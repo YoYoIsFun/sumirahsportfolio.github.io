@@ -79,6 +79,7 @@ It is suppose to be the front page of Facebook.I tried my best to replicate it d
                     behavior: 'smooth'
                 });
             }
+            console.log("Clicked anchor:", this.getAttribute('href'));
         });
     });
 
@@ -89,9 +90,13 @@ It is suppose to be the front page of Facebook.I tried my best to replicate it d
             if (details) { // Check if details element exists
                 details.classList.toggle('show');
             }
+            console.log("Clicked section7:", this);
         });
     });
 </script>
 
+</script>
+
 </body>
 </html>
+    
