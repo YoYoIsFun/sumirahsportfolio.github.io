@@ -58,13 +58,13 @@ based in Chattanooga, Tennessee.
             <p>This was a project i created 2 months ago. 
 It is suppose to be the front page of Facebook.I tried my best to replicate it down to the color, layout, and words. This was my most lengthy and first big project, i did not plan it out really but this did really help me learn a lot of coding.
 </p>
-    
+
               <img src="https://raw.githubusercontent.com/yoyoisfun/sumirahsportfolio.github.io/main/facebook.png" alt="Description of the image">
 
         </div>
     
 </div>
-
+</div>
 
 <script>
          document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -81,6 +81,12 @@ It is suppose to be the front page of Facebook.I tried my best to replicate it d
         });
     });
 
+document.querySelectorAll('.section7').forEach(section => {
+    section.addEventListener('click', function() {
+        const details = this.querySelector('.project-details');
+        details.classList.toggle('show');
+    });
+});
 
     </script>
 </body>
