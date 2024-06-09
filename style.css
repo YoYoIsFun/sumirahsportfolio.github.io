@@ -96,54 +96,34 @@ nav {
 }
 
 .section7 {
+  box-shadow: 5px 1px 60px gray;
+  width: 30%;
   position: relative;
-}
-
-.project-details {
-  display: none;
-  position: absolute;
-  top: calc(100% + 10px);
-  /* Adjust the spacing between container and details */
-  left: 20%;
-  transform: translateX(-50%);
+  top: -700px;
+  left: 34%;
   background-color: white;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  width: 500px;
-  /* Adjust the width as needed */
-  opacity: 0;
-  transition: opacity 0.3s ease;
+  border-radius: 15px;
+  
 }
 
-.section7:hover .project-details {
-  display: block;
-  opacity: 1;
-  transform: translate(-50%, 0);
-}
-
-.project-details img {
-  width: 100%;
-  height: auto;
-  border-radius: 5px;
-  margin-bottom: 10px;
-}
-
-.project-details p {
-  color: #1b4353;
-  font-family: monospace, sans-serif;
+.section7:hover {
+  width: 33%;
+  transition: width 0.3s ease-in;
 }
 
 .section7 h3 {
-  background-color: #173753;
-  font-family: monospace,sans-serif;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  width: 40%;
-  margin: 0 auto 20px;
-  /* Add margin to separate it from the project details */
-  margin-top: 20%;
-  margin-left: 3%;
+  font-family: monospace, sans-serif;
+  position: relative;
+  left: 31%;
+}
+
+.section7 img {
+  border-radius: 10px;
+  position: relative;
+  top: -9px;
+  left: 2.2%;
+  width: 95%;
+  background-color: white;
+  
 }
 
