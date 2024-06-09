@@ -1,5 +1,5 @@
 body {
-    background-color: #6DAEDB;
+    background-color: whitesmoke;
     position: sticky;
 	margin: 0;
     padding: 0;
@@ -136,12 +136,14 @@ nav {
 
 .section7 h3 {
   background-color: #173753;
+  font-family: monospace,sans-serif;
+  color: white;
   text-align: center;
   padding: 15px;
   width: 40%;
   margin: 0 auto 20px;
   /* Add margin to separate it from the project details */
-  margin-top: -40%;
+  margin-top: -20%;
   margin-left: 3%;
 }
 
