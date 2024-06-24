@@ -13,14 +13,14 @@ a {
     color: #173753;
     text-decoration: none;
     font-family: monospace, sans-serif;
-    font-size: 30px;
+    font-size: 27px;
 }
 
 a:hover {
-    color: #2892D7;
+    color: lightblue;
     transition: color 0.5s ease;
-     font-size: 35px;
-     transition: font-size 0.5s ease;
+     font-size: 27px;
+     transition: color 0.5s ease, font-size 0.5s ease;
 }
 
 nav {
@@ -31,7 +31,7 @@ nav {
 
 .home {
    
- left: 3%;
+ left: 0.0%;
     
 }
 
@@ -81,10 +81,9 @@ nav {
 }
 
 .WAIT img {
+    margin-bottom: 70%;
+    margin-left: 62%;
     width: 600px;
-     margin-top: -90%;
-     margin-left: 62%;
-   
 }
 
 .WHAT img {
