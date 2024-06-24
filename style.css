@@ -76,7 +76,6 @@ font-size: 30px;
 nav {
     position: fixed;
     top: 0;
-
     z-index: 1000;
 }
 
@@ -84,6 +83,7 @@ nav {
     margin-bottom: 70%;
     margin-left: 62%;
     width: 600px;
+    height: 464.883px;
 }
 
 .WHAT img {
