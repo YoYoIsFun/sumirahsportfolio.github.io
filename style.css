@@ -80,10 +80,12 @@ nav {
 }
 
 .WAIT img {
-    margin-bottom: 70%;
     margin-left: 62%;
     width: 600px;
-    height: 464.883px;
+    position: relative;
+    top: -600px;
+}
+
 }
 
 .WHAT img {
